@@ -3,8 +3,8 @@ package com.example.model
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-data class MsgModel(
-    @SerializedName("name")
+data class MsgResponse(
+    @SerializedName("content")
     @Expose
-    val name: String
+    val content: String
 )

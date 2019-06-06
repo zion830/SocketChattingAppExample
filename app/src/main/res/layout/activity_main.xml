@@ -22,8 +22,9 @@
                 android:layout_height="wrap_content"/>
 
         <Button
-                android:id="@+id/btn_finish"
+                android:id="@+id/btn_disconnect"
                 android:layout_weight="1"
+                android:enabled="false"
                 android:layout_width="match_parent"
                 android:text="@string/main_finish"
                 android:layout_height="wrap_content"/>
@@ -33,6 +34,7 @@
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:text="@string/main_send"
+                android:enabled="false"
                 android:layout_height="wrap_content"/>
     </LinearLayout>
 
